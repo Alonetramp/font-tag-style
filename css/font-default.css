@@ -1,0 +1,170 @@
+/*
+*		
+*     2019-11-7
+*
+*
+*/
+.h1, .h2, .h3, .h4, .h5, .h6, a, abbr, body, cite, dd, dl, dt, h1, h2, h3, h4, h5, h6, iframe, input, li, object, ol, p, pre, span, ul {
+    font-family: 'Microsoft YaHei','SF Pro Display',Roboto,Noto,Arial,'PingFang SC',sans-serif;
+}
+.font-box{
+	display: inline-block;
+    margin-top: 4px;
+	margin-right:5px;
+    width: 34px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 2px;
+    vertical-align: 1px;
+}
+.font-box-minwidth{
+	display: inline-block;
+    margin: 4px 0px;
+	min-width: 34px;
+	padding: 0px 4px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 2px;
+    vertical-align: 1px;
+}
+.font-color,.font-color a{
+	color: #D8D8D8;
+}
+.font-add-border,.font-add-border a{
+    border: 1px solid #D8D8D8;
+}
+.font-color-red,.font-color-red a{
+	color: #ca0c16;
+}
+.font-add-border-red,.font-add-border-red a{
+    border: 1px solid #f4ced0;
+}
+.font-color-orange,.font-color-orange a{
+	color: #F64C26;
+}
+.font-add-border-orange,.font-add-border-orange a{
+    border: 1px solid #F64C26;
+}
+.font-color-green,.font-color-green a{
+	color:#87ca5f;
+}
+.font-add-border-green,.font-add-border-green a{
+    border: 1px solid #87ca5f;
+}
+.font-color-green-2,.font-color-green-2 a{
+	color:#439D45;
+}
+.font-add-border-green-2,.font-add-border-green-2 a{
+    border: 1px solid #439D45;
+}
+.font-color-blank,.font-color-blank a{
+	color: #fff;
+    border: 1px solid #f4ced0;
+}
+.font-add-border-blank,.font-add-border-blank a{
+    border: 1px solid #fff;
+}
+.font-color-gray,.font-color-gray a{
+	color:#D8D8D8;
+	border: 1px solid #D8D8D8;
+}
+.font-add-border-gray,.font-add-border-gray a{
+    border: 1px solid #D8D8D8;
+}
+
+.font-color-bg-red{
+	background:#ca0c16;
+}
+.font-color-bg-red a{
+	background:#ca0c16;
+}
+.font-color-bg-orange{
+	background:#F64C26;
+}
+.font-color-bg-orange a{
+	background:#F64C26;
+}
+.font-color-bg-gray{
+	background:#D8D8D8;
+}
+.font-color-bg-gray a{
+	background:#D8D8D8;
+}
+
+.font-add-bold{
+	font-weight:bold;
+}
+.font-add-hover:hover{
+	cursor:pointer;
+	color:#fff;
+}
+.font-add-hover:hover a{
+	cursor:pointer;
+	color:#fff;
+}
+.font-add-hover-gray:hover{
+	cursor:pointer;
+	color:#d8d8d8;
+}
+.font-add-hover-gray:hover a{
+	cursor:pointer;
+	color:#d8d8d8;
+}
+
+/*边框hover效果*/
+.font-add-border-hover:hover{
+	cursor:pointer;
+	color:#fff;
+	border: 1px solid #fff;
+}
+.font-add-border-hover:hover a{
+	cursor:pointer;
+	color:#fff;
+	border: 1px solid #fff;
+}
+.font-add-border-hover-orange:hover{
+	cursor:pointer;
+	color:#F64C26;
+	border: 1px solid #F64C26;
+}
+.font-add-border-hover-orange:hover a{
+	cursor:pointer;
+	color:#F64C26;
+	border: 1px solid #F64C26;
+}
+
+
+
+
+.font-add-bghover-red:hover{
+	background: #ca0c16;
+}
+.font-add-bghover-red:hover a{
+	background: #ca0c16;
+}
+.font-add-bghover-green:hover{
+	background:#87ca5f;
+}
+.font-add-bghover-orange:hover{
+	background: #F64C26;
+}
+
+/*---文本字体操作----*/
+.font-ellipsis2size{
+	text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+}
+.font-ellipsis-div{
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+
+
+
